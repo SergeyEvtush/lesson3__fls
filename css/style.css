@@ -1,0 +1,45 @@
+
+@import "null.css";
+h1{
+	color: blue;
+	font-weight: 900;
+}
+h2{
+	color:red;
+	font-weight: 700;
+}
+[class*="content"]{
+	color: teal;
+}
+p .title-span{
+	color: yellow;
+}
+.page-subtitle + h3{
+	color: steelblue;
+
+}
+.licenz-minimum>div{
+color: green;
+
+}
+.list-minimum .item-list-minimum:first-child{
+	color: indigo;
+}
+.list-minimum .item-list-minimum:nth-child(2){
+	color: rgb(0, 24, 130);
+}
+.list-minimum .item-list-minimum:last-child{
+	color: rgb(0, 93, 130);
+}
+.item-link {
+	color: green;
+}
+.contacts-item{
+	color: saddlebrown;
+}
+.phone{
+	color: turquoise;
+}
+.footer>div{
+	color: slateblue;
+}
